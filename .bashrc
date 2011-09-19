@@ -1,6 +1,7 @@
 alias mate='open -a TextMate.app'
 
-hello(){
- greeting = "$*"
+hello()
+{
+ greeting="$*"
  echo "hello ${greeting}"
 }
